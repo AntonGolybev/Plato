@@ -1,0 +1,21 @@
+
+Создание репозитория:
+
+1. Создаем репозиторий в гит хаб, добавляем лицензию MIT
+
+2. Создаем локальный репозиторий (git init)
+3. Создаем README.md файл (echo "# Title" >> README.md)
+4. Рассматриваем все файлы на измененения (git add .)
+5. Фиксируем изменения (git commit -m "Commit")
+6. Создаем ветку (git branch -M main)
+7. Подключаемся к репозиторию github (git remote add origin ссылка)
+8. Докачиваем лицензию с гит хаб на локальный репозиторий (git pull --rebase origin main) 
+9. Добавляем все изменения на github (git push -u origina mina)
+
+
+
+Обновить репозиторий: 
+1. Рассматриваем все файлы на измененения (git add .)
+2. Фиксируем изменения (git commit -m "Commit")
+3. Докачиваем файлы с github (git pull --rebase origin main)
+4. Добавляем все изменения на github (git push -u origina mina)
